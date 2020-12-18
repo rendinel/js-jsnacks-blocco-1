@@ -20,11 +20,36 @@
 // console.log('La tua somma é ' + somma)
 
 // versione stretta perché quando delle cose si ripetono quasi sicuramente si tratta di un ciclo
-var somma = 0;
+// var somma = 0;
+//
+// for (var x =  0; x < 5; x++){
+//   var n = prompt('Inserisci un numero');
+//   somma += parseInt(n);
+// }
+//
+// console.log('La tua somma é ' + somma)
 
-for (var x =  0; x < 5; x++){
-  var n = prompt('Inserisci un numero');
-  somma += parseInt(n);
-}
+// versione do while
 
-console.log('La tua somma é ' + somma)
+// var somma = 0;
+//
+// var x = 0;
+//
+// do {
+//   var n = prompt('Inserisci un numero');
+//   somma += parseInt(n);
+//   x++;
+// } while(x < 5)
+//
+// console.log('La tua somma con il while é' + ' ' + somma)
+
+// versione while
+
+// var x = 0;
+// while (x < 5) {
+//   var n = prompt('Inserisci un numero');
+//   somma += parseInt(n); somma non definita why??
+//   x++;
+// }
+//
+// console.log('La tua somma é' + ' ' + somma)
