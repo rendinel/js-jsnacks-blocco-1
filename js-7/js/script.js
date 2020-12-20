@@ -1,16 +1,3 @@
-var number = prompt('Inserisci un numero di 4 cifre')
-var numberArray = []
-numberArray.push(number);
-var numberCheck
-var sommaNumber        
-for (var i = 0; i < numberArray.length ; i++) {
-  if(numberArray.length <= 4){
-    numberCheck = true
-  } else {
-    alert("DESTROY!!")
-  }
-}
-
-if (numberCheck = true) {
-
+for (var i = 1; i <= 1000; i++){
+  console.log(Math.pow(2, i));
 }
